@@ -43,14 +43,13 @@
 </head>
 
 <body>
-  <header>
-    <!-- nav section -->
-    <div class="navbar  flex justify-between items-start my-2">
+  <header class="w-11/12 mx-auto">
+    <!-- navbar section start -->
+    <div class="navbar flex justify-between items-start my-2">
       <div class="">
 
         <a class=" text-xl font-bold mt-2"><i
-            class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 rounded-full p-1"></i>
-          Rinterio</a>
+            class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 rounded-full p-1"></i> Rinterio</a>
 
       </div>
       <div class="navbar-center hidden lg:flex">
@@ -62,20 +61,13 @@
           <li><a>Contact Us</a></li>
         </ul>
       </div>
-      <div class=" flex gap-4">
-        <i class="fa-solid fa-magnifying-glass  bg-slate-50 p-1 rounded-full"></i>
-        <i class="fa-solid fa-cart-shopping bg-slate-50 p-1 rounded-full"></i>
-        <a class="btn bg-[#ABEF5F]">Book Consult <i
-            class="fa-solid fa-arrow-right -rotate-45 rounded-full p-1 bg-black text-white"></i></a>
-      </div>
-
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+      <div class="dropdown ">
+        <div tabindex="0" role="button" class="btn btn-ghost ml-16  lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
           </svg>
         </div>
-        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-auto  p-2 shadow">
+        <ul tabindex="0" class="menu menu-sm  dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32   p-2  shadow">
           <li><a>Home</a></li>
           <li><a>Services</a></li>
           <li><a>Portfolio</a></li>
@@ -83,8 +75,41 @@
           <li><a>Contact Us</a></li>
         </ul>
       </div>
+
+      <div class=" hidden md:flex lg:flex gap-4">
+        <i class="fa-solid fa-magnifying-glass  bg-slate-50 p-1 rounded-full"></i>
+        <i class="fa-solid fa-cart-shopping bg-slate-50 p-1 rounded-full"></i>
+        <a class="btn bg-[#ABEF5F]">Book Consult <i
+            class="fa-solid fa-arrow-right -rotate-45 rounded-full p-1 bg-black text-white"></i></a>
+
+      </div>
     </div>
+    <!-- navbar section end -->
+
+    <!-- banner section start -->
+    <section>
+      <div class="hero flex flex-col">
+        <div>
+          <img src="./assets/banner.png" alt="">
+        </div>
+        <div class="hero-content text-center">
+          <div class="lg:px-10">
+            <h1 class=" text-3xl md:text-4xl lg:text-5xl font-bold">A barn house of this design has a striking
+              appearance
+            </h1>
+            <p class="py-4">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+              wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <button class="btn bg-[#ABEF5F] rounded-full bg-opacity-70 text-[#212121] font-semibold w-4/6 lg:w-44 "> Get
+              Started <i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-1 "></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
   </header>
+  <!-- Header part End -->
+
 </body>
 
 </html>
